@@ -63,8 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+    <Compile Include="Assets\Scripts\DeleteOnExit.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\Enums\FacingEnum.cs" />
+    <Compile Include="Assets\Scripts\EyesFollow.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Scripts\HeroController.cs" />
+    <Compile Include="Assets\Scripts\Mouse.cs" />
+    <Compile Include="Assets\Scripts\MouseLookAt.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Philipp/Documents/Coded/Home/Education/EduPlatform/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
