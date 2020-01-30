@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CharacterController2D
     - DeleteOnExit
     - Enemy
+    - EnemySpawner
     - EyesFollow
     - Gun
     - HeroController
@@ -98,6 +99,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26648}
     - Class: 114
       Script: {instanceID: 27818}
+    - Class: 114
+      Script: {instanceID: 45828}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -659,6 +662,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DeleteOnExit
+  - hash:
+      serializedVersion: 2
+      Hash: 3ae662de2e9f20800e30ec313d9783ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemySpawner
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
